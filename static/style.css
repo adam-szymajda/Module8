@@ -1,0 +1,14 @@
+h1 {
+  background: blue;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.introduction {
+  border: 1px solid blue
+}
+.body {
+  color: brown;
+  font-size: 14px;
+  padding: 5px;
+  margin: 50px
+}

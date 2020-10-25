@@ -1,0 +1,13 @@
+{% extends "parent.html" %}
+{% block content %}
+<h2 class="introduction">Kontakt</h2>
+<ul class="body">
+  {% for key, value in items.items() %}
+    <li><strong>{{key}}: </strong>{{value}}</li>
+  {% endfor %}
+</ul>
+<textarea name="wiadomość" form="contact_form">Wpisz wiadomość</textarea>
+<form id="contact_form">
+  <input type="submit">
+</form>
+{% endblock %}
