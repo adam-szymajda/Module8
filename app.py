@@ -16,4 +16,4 @@ def contact():
         return render_template("contact.html", items = data, tab=tab)
     if request.method == "POST":
         print(request.form)
-        return redirect("/")
+        return redirect("/me")
